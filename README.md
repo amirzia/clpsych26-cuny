@@ -220,11 +220,14 @@ For evaluating the results on the validation set, please use the official script
 If you find this work useful, consider a ⭐️ and citing us with
 
 ```bibtex
-@article{bideh2026clpsych,
-  title={CLPsych 2026 Shared Task: Modeling Self-State Dynamics in Reddit Posts},
-  author={Bideh, Amirmohammad Ziaei and others},
-  journal={arXiv preprint arXiv:2605.24164},
-  year={2026}
+@misc{bideh2026cunyclpsych2026pipeline,
+      title={CUNY at CLPsych 2026: A Pipeline Approach to Classification and Summarization of Mental Health Changes}, 
+      author={Amirmohammad Ziaei Bideh and Shameed Charlomar Job and Ava Yahyapour and Alla Rozovskaya},
+      year={2026},
+      eprint={2605.24164},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.24164}, 
 }
 ```
 
