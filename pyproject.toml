@@ -1,0 +1,22 @@
+[project]
+name = "clpsych-2026"
+version = "0.1.0"
+description = "CLPsych 2026 Shared Task: self-state classification and sequence summary generation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "torch",
+    "transformers",
+    "tqdm",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["clpsych"]
